@@ -3,7 +3,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
   align-items: center;
   font-family: "Fjalla One", sans-serif;
   text-align: center;
@@ -16,7 +16,7 @@
     display: inline-block;
     float: none;
     overflow: auto;
-    max-width: 600px;
+
     text-align: center;
     margin-top: 25px;
 
@@ -27,7 +27,7 @@
       cursor: pointer;
       overflow: auto;
       color: black;
-      margin-right: 30px;
+      margin-right: 40px;
       position: relative;
       font-size: 24px;
       text-align: center;
@@ -43,7 +43,7 @@
         background-color: black;
         visibility: hidden;
         transform: scaleX(0);
-        transition: all 0.4s ease-in-out 0s;
+        transition: all 0.25s ease-in-out 0s;
       }
 
       &:hover:before {
@@ -54,12 +54,11 @@
 
     .auth-link {
       padding: 0;
-      display: inline-block;
-      float: none;
+      float: right;
       cursor: pointer;
       overflow: auto;
       color: black;
-      margin-right: 70px;
+      margin-right: 75px;
 
       position: relative;
       font-size: 24px;
@@ -76,7 +75,7 @@
         background-color: black;
         visibility: hidden;
         transform: scaleX(0);
-        transition: all 0.4s ease-in-out 0s;
+        transition: all 0.25s ease-in-out 0s;
       }
 
       &:hover:before {
