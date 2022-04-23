@@ -1,0 +1,14 @@
+.sign-container {
+  display: grid;
+  font-size: 14px;
+  justify-items: center;
+  margin-top: 50px;
+  margin-left: 10%;
+  float: left;
+  width: 40%;
+
+  .form {
+    width: 70%;
+    margin-top: 25px;
+  }
+}

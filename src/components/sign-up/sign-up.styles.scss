@@ -1,0 +1,14 @@
+.sign-up-container {
+  width: 40%;
+  display: grid;
+  float: right;
+  justify-items: center;
+  font-size: 14px;
+  margin-top: 50px;
+  margin-right: 10%;
+
+  .form {
+    margin-top: 25px;
+    width: 70%;
+  }
+}

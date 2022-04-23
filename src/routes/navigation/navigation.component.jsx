@@ -1,7 +1,6 @@
 import { Fragment } from "react";
 import { Outlet, Link } from "react-router-dom";
 
-import SignIn from "../../components/sign-in/sign-in.component";
 import { ReactComponent as Logo } from "../../assets/jordan.svg";
 
 import "./navigation.styles.scss";
@@ -23,7 +22,7 @@ const Navigation = () => {
           <Link className="nav-link" to="/contact">
             CONTACT
           </Link>
-          <Link className="auth-link" to="/sign-in">
+          <Link className="auth-link" to="/authentication">
             SIGN IN
           </Link>
         </div>
